@@ -32,7 +32,7 @@ def main():
             # NOTE unlike print, the function write does not print a
             # newline at the end.
             # This can be prevented in the case of print too, just put
-            # a colon at the end:
+            # a comma at the end:
             # print "spare me of your newlines",
             stderr.write('{0} lines read\n'.format(line_cnt))
 
