@@ -1,3 +1,6 @@
+#!/usr/bin/env python2.7
+# this is called the shebang line
+
 from sys import stdin
 from collections import defaultdict
 
