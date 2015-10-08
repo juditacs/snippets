@@ -67,14 +67,10 @@ def main():
             latinized_forms[latinized].add(word)
 
     lexdiff = 0
-    for type_ in word_types:
-        # the built-in dict's get method allows us to assign a default value if
-        # the key is not present in the dictionary
-        diff_form = len(latinized_forms.get(type_, set()))
-        # let's not forget the non-diacritic form
-        lexdiff += diff_form + 1
-
-    lexdiff /= float(len(word_types))  # int/int is int unless we cast at least one operand
+    diff_form = len(word_types)
+    for tgt, sources in latinized_forms.iteritems():
+        diff_form -= (len(sources) - 1)
+    lexdiff = len(word_types) / float(diff_form)  # int/int is int unless we cast at least one operand
 
     print('{0} tokens, {1} types'.format(token_num, len(word_types))) 
     print('{0} lexdif, {1} diacritic ratio'.format(lexdiff, float(dia_num) / token_num))
