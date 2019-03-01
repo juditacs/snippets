@@ -1,0 +1,19 @@
+category	ranges
+ascii	Basic Latin
+latin	Basic Latin, C1 Controls and Latin-1 Supplement, Latin Extended Additional, Latin Extended-A, Latin Extended-B
+cyrillic	Cyrillic, Cyrillic Supplement
+cjk	CJK Compatibility, CJK Compatibility Forms, CJK Compatibility Ideographs, CJK Compatibility Ideographs Supplement, CJK Radicals Supplement, CJK Symbols and Punctuation, CJK Unified Ideographs, CJK Unified Ideographs Extension A, CJK Unified Ideographs Extension B, Enclosed CJK Letters and Months
+cjk+kana	CJK Compatibility, CJK Compatibility Forms, CJK Compatibility Ideographs, CJK Compatibility Ideographs Supplement, CJK Radicals Supplement, CJK Symbols and Punctuation, CJK Unified Ideographs, CJK Unified Ideographs Extension A, CJK Unified Ideographs Extension B, Enclosed CJK Letters and Months, Hiragana, Katakana
+kana	Hiragana, Katakana
+korean	Hangul Compatibility Jamo, Hangul Jamo, Hangul Syllables
+arabic	Arabic, Arabic Presentation Forms-A, Arabic Presentation Forms-B
+hebrew	Hebrew
+indian	Bengali/Assamese, Devanagari, Gujarati, Gurmukhi, Kannada, Malayalam, Sinhala, Tamil, Telugu
+thai	Thai
+georgian	Georgian
+armenian	Armenian
+greek	Greek Extended, Greek/Coptic
+myanmar	Myanmar
+tibetan	Tibetan
+mongolian	Mongolian
+misc	Arrows, Block Elements, Box Drawing, Combining Diacritical Marks, Currency Symbols, Dingbats, Enclosed Alphanumerics, General Punctuation, Geometric Shapes, Halfwidth and Fullwidth Forms, IPA Extensions, Letterlike Symbols, Mathematical Operators, Miscellaneous Mathematical Symbols-A, Miscellaneous Symbols, Miscellaneous Technical, Number Forms, Phonetic Extensions, Small Form Variants, Spacing Modifier Letters, Superscripts and Subscripts
